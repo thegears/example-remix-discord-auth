@@ -26,8 +26,8 @@ export const auth = new Authenticator<DiscordUser>(sessionStorage);
 
 const discordStrategy = new DiscordStrategy(
 	{
-		clientID: "1162319033048240280",
-		clientSecret: "X02ggMrDLvqcUepvDdQjWWmgPVXveyqy",
+		clientID: "",
+		clientSecret: "",
 		callbackURL: "http://localhost:3000/auth/discord/callback",
 		// Provide all the scopes you want as an array
 		scope: ["identify", "email", "guilds"],
